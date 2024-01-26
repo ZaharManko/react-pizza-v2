@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../furniture_store"
+		},
+		{
+			"path": "../../../../../../OSPanel/domains/Makar"
+		},
+		{
+			"path": "../../../react-pizza-html-master"
+		}
+	],
+	"settings": {}
+}

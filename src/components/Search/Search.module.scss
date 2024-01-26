@@ -1,0 +1,29 @@
+.search {
+    border: 1px solid #282727;
+    padding: 12px 20px;
+    width: 300px;
+    border-radius: 15px;
+
+    &:focus {
+        -webkit-box-shadow: -12px 13px 9px -8px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: -12px 13px 9px -8px rgba(0, 0, 0, 0.53);
+        box-shadow: -12px 13px 9px -8px rgba(0, 0, 0, 0.53);
+    }
+
+    position: relative;
+}
+
+.cross {
+    position: absolute;
+    right: 544px;
+    width: 34px;
+    height: 35px;
+
+    top: 99px;
+    opacity: 0.6;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
